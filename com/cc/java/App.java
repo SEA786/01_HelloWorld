@@ -11,7 +11,7 @@ public class App {
         // Cat --> Referenztyp(Klasse)
         Cat cat = new Cat();
         output("Blick von aussen: " + cat);
-        cat.tellYourAddress(); 
+       output("Blick von innen: " + cat.getinstanceVariable()); 
 
         System.out.println("----------------------------");
 
@@ -25,6 +25,6 @@ public class App {
     public static void output(String outputStr){
         System.out.println(outputStr);
     }
-    
+
    
 }
